@@ -1,0 +1,9 @@
+<div class="container container-fluid">
+    <div class="panel panel-heading"><h2> Users</h2> </div>
+    <div class="panel panel-body" *ngFor ="let users of userData"><!-- -->
+            <a [routerLink]="['/user',users.id]" routerLinkActive="active" (click)="update(users.id)"><strong>{{users.name}}</strong></a> <!--Redirect to UserComponent and update selected id on click -->
+    </div>
+</div>
+
+<router-outlet></router-outlet>
+<user [child_id]="myId"></user><!--Send the current id to UserComponent -->

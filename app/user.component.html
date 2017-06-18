@@ -1,0 +1,11 @@
+<div class="container container-fluid" *ngFor="let users of userData" ><!--Iterate through the array -->
+    <div class="panel panel-heading" *ngIf="users.id==child_id"><h4> <b>Name: </b>{{users.name}}</h4> </div><!-- Display name if selected cartoon -->
+    <div class="panel panel-body" *ngIf="users.id==child_id"><h4> <b>Email: </b>{{users.email}}</h4> </div><!--Display email if selected cartoon -->
+</div>
+
+
+
+
+
+
+
