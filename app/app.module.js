@@ -30,5 +30,4 @@ var AppModule = (function () {
     return AppModule;
 }());
 exports.AppModule = AppModule;
-// RouterModule.forRoot([{path: 'restaurant', component: RestaurantDetail}]) 
 //# sourceMappingURL=app.module.js.map

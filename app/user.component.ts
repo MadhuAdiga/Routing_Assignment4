@@ -17,7 +17,7 @@ export class UserComponent implements OnInit {
   constructor(private _userService: UserService){} // Declares a private variable and assign it to the type HomeService
 
     ngOnInit(){
-        this.userData= this._userService.getData(); // Apply the ngOnInit lifecycle on the variable which assigns the homeData to the data fetched by the function getData in the HomeService
+        this.userData= this._userService.getData(); // Apply the ngOnInit lifecycle on the variable which assigns the userData to the data fetched by the function getData in the UserService
         
   };
 

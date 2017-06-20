@@ -16,7 +16,7 @@ var UserComponent = (function () {
         this._userService = _userService;
     } // Declares a private variable and assign it to the type HomeService
     UserComponent.prototype.ngOnInit = function () {
-        this.userData = this._userService.getData(); // Apply the ngOnInit lifecycle on the variable which assigns the homeData to the data fetched by the function getData in the HomeService
+        this.userData = this._userService.getData(); // Apply the ngOnInit lifecycle on the variable which assigns the userData to the data fetched by the function getData in the UserService
     };
     ;
     __decorate([

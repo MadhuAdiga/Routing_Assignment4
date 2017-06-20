@@ -11,10 +11,9 @@ import { routingComponents }  from './app-routing.module';//Import the routing c
 
 @NgModule({
   imports:      [ BrowserModule, AppRoutingModule ],
-  declarations: [ AppComponent, routingComponents],
+  declarations: [ AppComponent, routingComponents],//declare routingComponents
   bootstrap:    [ AppComponent],
   providers :   [ UserService ]
 })
 export class AppModule { }
 
-// RouterModule.forRoot([{path: 'restaurant', component: RestaurantDetail}])
